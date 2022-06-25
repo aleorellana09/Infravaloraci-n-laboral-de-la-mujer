@@ -1,0 +1,89 @@
+h1{
+  font-family: hue;
+  font-size: 80px;
+}
+
+body{
+  display:flex; flex-direction:column; justify-content:center; 
+  min-height: 100vh;
+  align-items: center;
+  background-color: peachpuff;
+}
+.title{
+  border-radius: 50%;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/53aadf1de4b0a0a817640cca/115c4aa2-fc2c-4e8d-8fa9-23d149902b4d/feminismo+diversidad.jpg);
+}
+.title h1{
+ padding: 50px;
+ font-size: 50px;
+ border-radius: 50%;
+ background-color: #a3245b;
+ }
+nav{
+  background-color: purple;
+}
+nav a{
+ margin-right:10px;
+ color: white;
+}
+nav a:hover{
+ background-color: peachpuff;
+}
+.content h3{
+  font-size: 30px;
+  text-align: center;
+}
+img{
+  height:100%;
+  width: 100%;
+}
+.mcontainer{
+  display:flex;
+  width: 100%;
+  border: solid;
+}
+h3{
+  font-size: 50px;
+}
+.ccontainer{
+  background-color: lightpink;
+  max-width: 600px;
+  font-size: 25px;
+}
+.lcontainer{
+  background-color: lightpink;
+  font-size: 25px;
+  max-width: 1500px;
+  text-align: center;
+}
+.licontainer{
+  background-color: lightpink;
+  font-size: 25px;
+}
+.licontainer li{
+  font-size: 30px;
+}
+.licontainer img{
+  height:200px;
+  width: 200px;
+}
+textarea{
+  height:200px;
+  width: 300px;
+}
+p{
+  font-size: 25px;
+}
+input{
+  height:20px;
+  width:300px;
+}
+.bock{
+  display:square;
+  height:20px;
+  border: no-borders;
+  background-color: blueviolet;
+  color: white;
+  font-size:25px;
+  text-align: center;
+}
